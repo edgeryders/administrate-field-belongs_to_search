@@ -3,9 +3,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-belongs_to_search'
-  gem.version = '0.7.0'.freeze
-  gem.authors = ['Klas Eskilson']
-  gem.email = ['klas.eskilson@gmail.com']
+  gem.version = '0.10.0'.freeze
+  gem.authors = ['Fishbrain']
+  gem.email = ['support@fishbrain.com']
   gem.homepage = 'https://github.com/fishbrain/administrate-field-belongs_to_search'
   gem.summary = 'Plugin that adds search capabilities to belongs_to associations for Administrate'
   gem.license = 'MIT'
@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'administrate', '>= 0.3', '< 1.0'
   gem.add_dependency 'jbuilder', '~> 2'
-  # gem.add_dependency 'rails', '>= 6.1.3.2'
+  #gem.add_dependency 'rails', '>= 4.2', '< 8.0'
   gem.add_dependency 'selectize-rails', '~> 0.6'
 
   gem.add_development_dependency 'coveralls', '~> 0'
